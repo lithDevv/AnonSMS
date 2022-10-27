@@ -50,7 +50,7 @@ function send_message($message, $number) {
     $mail->Port = 587;
     $mail->Encoding = '7bit';
      
-    $mail->Username   = "ddawdad@outlook.com";
+    $mail->Username   = "";
     $mail->Password   = "";
     $mail->Body = "$message";
      
